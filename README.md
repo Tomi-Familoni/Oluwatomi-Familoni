@@ -26,17 +26,17 @@
 #### CLAIM MY OFFER CHARTER
 Analyse Budgeting Dashboard and report on areas of potential risk
 
-####Areas
+#### Areas
 
 - Android Platform of the Monefy Mobile Application
 - `Claim My Offer` Modal
 
-####Task
+#### Task
 
 - Duration - Short (30 mins)
 - Test Breakdown - Bug Logging, Functional Testing
 
-####Test Notes:
+#### Test Notes:
 
 I focused on the `Claim My Offer` Modal to validate that ;
 
@@ -46,16 +46,16 @@ I focused on the `Claim My Offer` Modal to validate that ;
 - Users attempting to submit payment card details without no Card Name and or Card Address should not be able to proceed.
   User should only be able to create a new expense for a non-zero amount.
 
-####Data files
+#### Data files
 
 - Screenshots, recordings
 
-####Risks
+#### Risks
 
 - Incorrectly processing payents from invalid/expired payment cards.
 - Hence, losing money to fraud
 
-####Bugs
+#### Bugs
 
 - BUG 101- Launching the app with no intrenet connection triggers "Error performing request". Claim my Offer button and offer amount details not displayed as the app was unable to fetch the necessary date to display these data. A
 - BUG 102- Something went wrong  no internet connection trying to launch the app
@@ -63,25 +63,25 @@ I focused on the `Claim My Offer` Modal to validate that ;
 - BUG 104 Attempting to select a country from the dopdownlist caused previously filled data to be cleared causing user to have to repeat filling the form
 - BUG 105 Unable to successfully add a debit card . "Your request failed. Use a different payment method or contact us. [OR-CCSEH-21]"
 
-####Issues
-- n
+#### Issues
+- 'Claim Offer' button covers reviews data. At first glance, user is not aware that the page can be scrolled to view `reviews` , `private policy` and `Restore` button
 
 ----
 
 
-###BUDGETING/EXPENSE DASHBOARD CHARTER
+### BUDGETING/EXPENSE DASHBOARD CHARTER
 Analyse Budgeting Dashboard and report on areas of potential risk
 
-####Areas
+#### Areas
 
 - Android Platform
 - Monefy Expense/income Dashboard
 
-####Task
+#### Task
 - Duration - Short (30 minutes)
 - Test Breakdown - Bug Logging, Functional Testing
 
-####Test Notes:
+#### Test Notes:
 
 I focused on the Expense/income Dashboard to validate that ;
 
@@ -94,38 +94,38 @@ I focused on the Expense/income Dashboard to validate that ;
 - When Budget mode is activated with a specific budget amount configured, the budget amount should be reflected on the dashboard and should be colour coded blue on the pie chart. The balance amount displayed on the Balance button should always be calculated as Budget + Income  - Expense.
 - If Balance is in deficit after taking the budget amount into consideration, Balance button should be red, else Balance button should be green ( ie Balance >= 0)
 
-####Data files
+#### Data files
 
 - Screenshots, recordings
 
-####Risks
+#### Risks
 
 - Incorrect computation of balance amount
 - Incorrect allocation of distribution of amount spent on the various expense categories
 - Incorrectly plotted pie-chart  depicting the
 
-####Bugs
-- v
+#### Bugs
+- 
 
-####Issues
+#### Issues
 
 
 -------------------------------------
 
-###BUDGETING BALANCE BREAKDOWN REPORT CHARTER
+### BUDGETING BALANCE BREAKDOWN REPORT CHARTER
 Analyse Budgeting balance breakdown report and highlight areas of potential risk
 
-####Areas
+#### Areas
 
 - Android Platform
 - Budgeting balance breakdown report view
 
-####Task
+#### Task
 
 - Duration - Short (30 mins)
 - Test Breakdown - Bug Logging, Functional Testing
 
-####Test Notes:
+#### Test Notes:
 
 I paid attention to the breakdown report to ensure that;
 
@@ -138,38 +138,38 @@ I paid attention to the breakdown report to ensure that;
 
 
 
-####Data files
+#### Data files
 - Screenshots, recordings
 
-####Risks
+#### Risks
 
 - Incorrect assignment of accounting entry to the category type
 - incorrect computation of balance amount
 - Incorrect data on the report page
 
-####Bugs
-- v
+#### Bugs
+- 
 
-####Issues
+#### Issues
 - The Kebab menu icon is not very visible
 
 ------------------------
 
 
-####BUDGET REPORT FILTER CHARTER
+#### BUDGET REPORT FILTER CHARTER
 Analyse Budgeting report filter and report on areas of potential risk
 
-####Areas
+#### Areas
 - Android Platform
 - Budget Report Filter Drawer
 
-####Task
+#### Task
 
 - Duration - Short (30 mins)
 - Test Breakdown - Bug Logging, Functional Testing
 
 
-####Test Notes:
+#### Test Notes:
 
 - The Date interval/period for the budgeting report should be displayed
 - User should be able to select the reporting period  displayed on the dashboard using the side drawer. The options should include Day/Month/Year.
@@ -178,38 +178,34 @@ Analyse Budgeting report filter and report on areas of potential risk
 - User should not be able to filter using invalid dates or invalid date rages
 
 
-####Data files
+#### Data files
 
 - Screenshots, recordings
 
-####Risks
+### Risks
 - Fetching and displaying wrong data 
 - Filters nor working correctly
 
-####Bugs
+#### Bugs
 - On the `Choose Date` view, after selecting a specific date on calendar and viewing the report, when user attempts to view the calendar, a wrongly selected date date is highlighted on the calendar.
 
-####Issues
+#### Issues
 
 
---------------------------------------------------------
-
-
-
-###SETTINGS CHARTER
+### SETTINGS CHARTER
 Analyse `Settings` page and report on areas of potential risk
 
-####Areas
+#### Areas
 
 - Android Platform
 - `Settings` drawer
 
-####Task
+#### Task
 
 - Duration - Short (30 mins)
 - Test Breakdown - Bug Logging, Functional Testing
 
-####Test Notes:
+#### Test Notes:
 
 - User should be unable to enable Dark Theme if still on Free Version. User should be redirected to the Claim offer modal whenever they attempt to enable Dark Theme mode. This also applies to Synchronization settings and Password Protection Settings
 - User should be able to successfully unlock Monefy Pro from the Settings drawer
@@ -219,37 +215,37 @@ Analyse `Settings` page and report on areas of potential risk
 - When exporting a report, user should be provided options for Character set. They should be offered the option to select between Decimal comma of Decimal point
 
 
-####Data files
+#### Data files
 
 - Screenshots, recordings
 
-####Risks
+#### Risks
 
 - User is able to access Monefy pro features when they have not activated and are still on the Free mode
 
-####Bugs
+#### Bugs
 
 - Attempting to change Language only works for date. Newly selected language is not effected for all the forms, descriptions, menu items, modal titles etc. Instead, English Language is still mainitained.
 
-####Issues
+#### Issues
 
 ----------------------------------------
 
 ### EXPENSE CREATION CHARTER
 Analyse the `New Expense` form and report on areas of potential risk
 
-####Areas
+#### Areas
 
 - Android
 - Expense creation form
 
-####Task
+#### Task
 
 - Duration - Short (30 mins)
 - Test Breakdown - Bug Logging, Functional Testing
 
 
-####Test Notes:
+#### Test Notes:
 I focused on the dashboard to validate that a user ;
 
 - Can specify new expense amount (with decimal or rounded amount) up to 9 digits
@@ -261,37 +257,37 @@ I focused on the dashboard to validate that a user ;
 - If user is on free trial, they should be redirected to Claim my order modal when user attemmpts to add an expense Category
 - User should only be able to create a new expense for a non-zero amount.
 
-####Data files
+#### Data files
 
 - Screenshots, recordings
 
-####Risks
+#### Risks
 - User is unable to successfully create an expense record
 
-####Bugs
-- v
+#### Bugs
+- 
 
-####Issues
+#### Issues
 
 
 ------------------
 
 
-###NEW INCOME RECORD CREATION  CHARTER
+### NEW INCOME RECORD CREATION  CHARTER
 Analyse the 'New Income' form and report on areas of potential risk
 
-####Areas
+#### Areas
 
 - Android Platform
 - Income record creation form/page
 
-####Task
+#### Task
 
 - Duration - Short (30 mins)
 
 - Test Breakdown - Bug Logging, Functional Testing
 
-####Test Notes:
+#### Test Notes:
 
 - User can specify or select the Payment instrument for the income
 - Can specify income amount (with decimal, integar) up to 9 digits
@@ -302,20 +298,20 @@ Analyse the 'New Income' form and report on areas of potential risk
 - If user is on free trial, they should be redirected to Claim my order modal when user attemmpts to add an Income Category
 - User should only be able to create a new income for a non-zero amount
 
-####Data files
+#### Data files
 - Screenshots, recordings
 
-####Risks
+#### Risks
 - Analyse the 'New Expense' form and report on areas of potential risk
 
-####Bugs
-- v
+#### Bugs
+- 
 
-####Issues
+#### Issues
 
 
 
-###ALL BUGS FOUND DURING THE TEST SESSION
+### ALL BUGS FOUND DURING THE TEST SESSION
 
 - Launching the app with no intrenet connection triggers "Error performing request". Claim my Offer button and offer amount details not displayed as the app was unable to fetch the necessary date to display these data. A
 - Something went wrong  no internet connection trying to launch the app.
@@ -326,7 +322,7 @@ Analyse the 'New Income' form and report on areas of potential risk
 - On the Choose Date view, after selecting a specific date on calendar and viewing the report, when user attempts to view the calendar, a wrongly selected date date is highlighted on the calendar.
 
 
-###Prioritisation of the Charters (0 as the highest priority)
+### Prioritisation of the Charters (0 as the highest priority)
 
 - Priority 0 - Income/Expense Creation + Dashboard
 - Priority 1 - Reporting ( Balance breakdown report and filter)
@@ -357,7 +353,7 @@ The smoke tests can be configured to run every code check-in for software engine
     - test the availability of the service
     - Functional correctness of the service.
 
-###Dependencies
+### Dependencies
 1. rest-assured 4.3.3
 2. testNG 7.3.0
 3. json-path 4.3.3
@@ -367,7 +363,7 @@ The smoke tests can be configured to run every code check-in for software engine
    
 These dependencies are already setup on the pom.xml file
 
-###Approach to the task and reasons for using this approach
+### Approach to the task and reasons for using this approach
 
 1. `RequestSpecBuilder` and `ResponseSpecBuilder`:  RequestSpecBuilder was used to optimise the code and make it more maintainable as it provides me the ability to reuse request specifications (Base URI and base path).  I created a ResponseSpecification to specify checks that I performed on the responses that are returned from the API calls.  Specifically,the expected status code for each of the API calls and that the expected content type.
 2. `JsonSchemaValidator`: allowed me define the expected syntax and structure for a JSON response payload including what fields are required and data types expected. This was used for the comments.
@@ -377,7 +373,7 @@ These dependencies are already setup on the pom.xml file
 
 ### Scenarios covered in the test automation framework;
 
-####Smoke Tests
+#### Smoke Tests
 
 - Create a new Pet Successfully
 - Validate that the json response body matches the expected Schema after creating a new Pet
@@ -400,9 +396,9 @@ These dependencies are already setup on the pom.xml file
 - Delete an existing user
 - Fetch a User's record using username
 - Login as a User
-- Logout User5412 ms
+- Logout User 
 
-####Regression tests
+#### Regression tests
 - Delete Pet With Invalid ID should return 400 status code with appropriate error message
 - Fetching a Pet with a non exiisting ID should return 404 status code with appropriate error message
 - Fetching a Pet with an invalid ID should return 400 status code with appropriate error message
@@ -414,6 +410,7 @@ These dependencies are already setup on the pom.xml file
 - Attempting to delete a NonExisting User should return 404 status code with appropriate error message
 - Fetch records for a user not existing in the DB should return 404 status code with appropriate error message
 - Update User Without Providing New Details should return 400 status code with appropriate error message
+- 
 ### LAUNCHING PROJECT / SETTING UP THE ENVIRONMENT
 - Launch IDE(IntelliJ)
 - Click File on the menu
