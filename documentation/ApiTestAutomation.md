@@ -113,6 +113,6 @@ After executing the tests, you should be able to view test result on
     - Select surefire-reports
     - Open emailable-report.html to launch a web view of the test report.
 
-![Alt text](documentation/testresult2.png?raw=true "Optional Title")
+![Alt text](testresult2.png?raw=true "Optional Title")
 -----------
-![Alt text](documentation/testresult1.png?raw=true "Optional Title")
+![Alt text](testresult1.png?raw=true "Optional Title")

@@ -1,15 +1,11 @@
 # Solution to Software QA Challenge  for N26 by Oluwatomi Familoni
 
+#### Tasks implemented:
+- Exploratory Test on Monefy Budget Manager Mobile App.
+- API Test Automation Framework.
 --------------------------------------------------------------------------------------------------------
 ----------------------------------------------------
 ## DELIVERABLE 1 - Exploratory Test on Monefy Budget Manager Mobile App
-
- Please perform the testing session and write in a markdown file:
- Exploratory testing charters to document your testing.
- Findings from your charters. Did everything work as expected? What bugs were discovered?
- Prioritisation of those charters - which area of the app or testing would you explore first and why?
- How much time you have planned for each charter?
- What kind of risks you need to mitigate for this type of application?
 
 
 ## Exploratory Testing Charters:
@@ -105,7 +101,7 @@ I focused on the Expense/income Dashboard to validate that ;
 - Incorrectly plotted pie-chart  depicting the
 
 #### Bugs
-- 
+-  v
 
 #### Issues
 
@@ -148,7 +144,7 @@ I paid attention to the breakdown report to ensure that;
 - Incorrect data on the report page
 
 #### Bugs
-- 
+- v
 
 #### Issues
 - The Kebab menu icon is not very visible
@@ -265,7 +261,7 @@ I focused on the dashboard to validate that a user ;
 - User is unable to successfully create an expense record
 
 #### Bugs
-- 
+- 0
 
 #### Issues
 
@@ -305,7 +301,7 @@ Analyse the 'New Income' form and report on areas of potential risk
 - Analyse the 'New Expense' form and report on areas of potential risk
 
 #### Bugs
-- 
+- 0
 
 #### Issues
 

@@ -1,12 +1,7 @@
 ## DELIVERABLE 1 - Exploratory Test on Monefy Budget Manager Mobile App
 ### by Oluwatomi Familoni
 
-- Please perform the testing session and write in a markdown file:
-- Exploratory testing charters to document your testing.
-- Findings from your charters. Did everything work as expected? What bugs were discovered?
-- Prioritisation of those charters - which area of the app or testing would you explore first and why?
-- How much time you have planned for each charter?
-- What kind of risks you need to mitigate for this type of application?
+
 
 
 ## Exploratory Testing Charters:
